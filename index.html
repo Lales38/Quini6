@@ -10,44 +10,86 @@
     <title>Document</title>
 </head>
 <style>
-    div {
+    header {
+        display: flex;
+        background-color: orange;
+        /*animation-name: fantasma;
+        animation-duration: 4s;*/
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .img_inicio {
+        height: 70px;
+        margin-right: auto;
+    }
+    .img_fin {
+        height: 70px;
+        margin-left: auto;
+    }
+
+    .encabezado {
        
-        text-align: center;
-        padding: 10px;
+        align-items: center;
     }
 
     div {
-        justify-content: center;
-        animation-name: fantasma;
-        animation-duration: 6s;
+        text-align: center;
+       
     }
+
 
     h1 {
         font-family: "Sofia", sans-serif;
-        font-size: 45px;
+        font-size: 26px;
         color: white;
-        animation-name: fantasma;
-        animation-duration: 4s;
+         text-shadow: 3px 3px 6px black;
+        /*animation-name: fantasma;
+        animation-duration: 4s;*/
     }
 
-    @keyframes fantasma {
-        from {background-color: transparent;}
-        to {background-color:orange;}
-        from{text-shadow: none;}
-        to{text-shadow: 3px 3px 6px black;}
+    .desayuno {
+        width: 55%;
+
+    }
+
+    /*@keyframes fantasma {
+        from {
+            background-color: transparent;
+        }
+
+        to {
+            background-color: orange;
+        }
+
+        from {
+            text-shadow: none;
+        }
+
+        to {
+            text-shadow: 3px 3px 6px black;
+        }*/
     }
 </style>
 
 <body>
+    <header>
+        <div class="img_inicio">
+            <img class="img_inicio" src="photo.jpg" alt="">
+        </div>
+        <div class="encabezado">
+            <h1>
+                Lista de resposabel desayuno
+            </h1>
+
+        </div>
+        <div class="img_fin">
+            <img class="img_inicio" src="photo.jpg" alt="">
+        </div>
+    </header>
     <div>
-        <h1>
-            Edu el viejo te cubre en tu casa !!!!!
-        </h1>
+        <img class="desayuno" src="./ListaDesayuno.png" alt="">
     </div>
-    <div>
-        <img src="./ListaDesayuno.png" alt="">
-    </div>
-   
 </body>
 
 </html>
