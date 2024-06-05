@@ -1,95 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide"
+    />
 
-<head>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stilo.css" />
     <title>Document</title>
-</head>
-<style>
-    header {
-        display: flex;
-        background-color: orange;
-        /*animation-name: fantasma;
-        animation-duration: 4s;*/
-        align-items: center;
-        justify-content: space-between;
-    }
+  </head>
 
-    .img_inicio {
-        height: 70px;
-        margin-right: auto;
-    }
-    .img_fin {
-        height: 70px;
-        margin-left: auto;
-    }
-
-    .encabezado {
-       
-        align-items: center;
-    }
-
-    div {
-        text-align: center;
-       
-    }
-
-
-    h1 {
-        font-family: "Sofia", sans-serif;
-        font-size: 26px;
-        color: white;
-         text-shadow: 3px 3px 6px black;
-        /*animation-name: fantasma;
-        animation-duration: 4s;*/
-    }
-
-    .desayuno {
-        width: 75%;
-
-    }
-
-    /*@keyframes fantasma {
-        from {
-            background-color: transparent;
-        }
-
-        to {
-            background-color: orange;
-        }
-
-        from {
-            text-shadow: none;
-        }
-
-        to {
-            text-shadow: 3px 3px 6px black;
-        }*/
-    }
-</style>
-
-<body>
+  <body>
     <header>
-        <div class="img_inicio">
-            <img class="img_inicio" src="photo.jpg" alt="">
-        </div>
-        <div class="encabezado">
-            <h1>
-                Responsable para el desayuno
-            </h1>
-
-        </div>
-        <div class="img_fin">
-            <img class="img_inicio" src="photo.jpg" alt="">
-        </div>
+      <div class="img_inicio">
+        <img class="img_inicio" src="photo.jpg" alt="" />
+      </div>
+      <div class="encabezado">
+        <h1>Responsable desayuno</h1>
+      </div>
+      <div class="img_fin">
+        <img class="img_inicio" src="photo.jpg" alt="" />
+      </div>
     </header>
-    <div>
-        <img class="desayuno" src="./ListaDesayuno.png" alt="">
-    </div>
-</body>
-
+    <main class="cuadro">
+      <div>
+        <img class="desayuno" src="./ListaDesayuno.png" alt="" />
+      </div>
+      <div class="datos">
+        <div>
+          <p id="fecha"></p>
+        </div>
+        <div>
+          <p id="persona"></p>
+        </div>
+      </div>
+    </main>
+    <script src="personas.js"></script>
+  </body>
 </html>
