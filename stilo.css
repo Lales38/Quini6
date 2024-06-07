@@ -1,6 +1,11 @@
 body {
   border: 0;
   padding: 0;
+  background-image: url(photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 header {
   display: flex;
@@ -23,7 +28,7 @@ header {
   align-items: center;
 }
 main {
-  height:400px;
+  height: auto;
 }
 div {
   text-align: center;
@@ -35,15 +40,9 @@ h1 {
   animation-name: fantasma;
   animation-duration: 4s;
 }
-.desayuno {
-  width: 65%;
-}
+
 .cuadro {
-  background-image: url(photo.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: flex;
-  justify-content: space-around;
+  
 }
 .datos {
   width: auto;
@@ -51,15 +50,20 @@ h1 {
 }
 #fecha,
 #persona {
-  width: 150px;
-  padding: 0;
-  margin: 0;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 80px
+  ;
+  font-style: italic;
+  text-shadow: 3px 3px 6px rgb(0, 89, 255);
+
+  padding-bottom: 800px;
+
 }
 p {
   font-family: Verdana, Tahoma, sans-serif;
-  font-size: 25px;
+  font-size: 35px;
   color: white;
-  text-shadow: 3px 3px 6px black;
+  text-shadow: 4px 4px 7px black;
 }
 
 @keyframes fantasma {
