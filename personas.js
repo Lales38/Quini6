@@ -9,14 +9,14 @@ const persona = [
   "Otero",
 ];
 const ct = [
-  '<img src="JuanPablo.png" alt=""></img>',
-  '<img src="Andres.png" alt=""></img>',
-  '<img src="Marcos.png" alt=""></img>',
-  '<img src="Walter.png" alt=""></img>',
-  '<img src="Eduardo.png" alt=""></img>',
-  '<img src="Ale.png" alt=""></img>',
-  '<img src="Milton.png" alt=""></img>',
-  '<img src="Javier.png" alt=""></img>',
+  '<img src="JuanPablo.png" alt="Juan Pablo"></img>',
+  '<img src="Andres.png" alt="Andrés"></img>',
+  '<img src="Marcos.png" alt="Marcos"></img>',
+  '<img src="Walter.png" alt="Walter"></img>',
+  '<img src="Eduardo.png" alt="Eduardo"></img>',
+  '<img src="Ale.png" alt="Ale"></img>',
+  '<img src="Milton.png" alt="Milton"></img>',
+  '<img src="Javier.png" alt="Javier"></img>',
 ];
 
 const second = 1000;
