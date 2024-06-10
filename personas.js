@@ -8,6 +8,16 @@ const persona = [
   "Ferrieri",
   "Otero",
 ];
+const ct = [
+  '<img src="JuanPablo.png" alt=""></img>',
+  '<img src="Andres.png" alt=""></img>',
+  '<img src="Marcos.png" alt=""></img>',
+  '<img src="Walter.png" alt=""></img>',
+  '<img src="Eduardo.png" alt=""></img>',
+  '<img src="Ale.png" alt=""></img>',
+  '<img src="Milton.png" alt=""></img>',
+  '<img src="Javier.png" alt=""></img>',
+];
 
 const second = 1000;
 const minute = second * 60;
@@ -19,11 +29,9 @@ let day_fin = new Date();
 
 diff = day_fin - day_ini;
 let a = Math.round(Math.floor(diff / week));
-
+let people = '<img src="ListaDesayuno.png" alt="">';
 let individuo = persona[a - 1];
-const usaDateFin = new Intl.DateTimeFormat('es-cl').format(day_fin);
+const usaDateFin = new Intl.DateTimeFormat("es-cl").format(day_fin);
 
-document.getElementById("persona").innerHTML = individuo;
+document.getElementById("persona").innerHTML = people;
 document.getElementById("fecha").innerHTML = usaDateFin;
-
-
