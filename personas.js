@@ -32,5 +32,5 @@ let a = Math.round(Math.floor(diff / week));
 let individuo = persona[a - 1];
 const usaDateFin = new Intl.DateTimeFormat("es-cl").format(day_fin);
 
-document.getElementById("persona").innerHTML = people;
+document.getElementById("persona").innerHTML = individuo;
 document.getElementById("fecha").innerHTML = usaDateFin;
