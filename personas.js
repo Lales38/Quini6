@@ -29,7 +29,6 @@ let day_fin = new Date();
 
 diff = day_fin - day_ini;
 let a = Math.round(Math.floor(diff / week));
-let people = '<img src="ListaDesayuno.png" alt="">';
 let individuo = persona[a - 1];
 const usaDateFin = new Intl.DateTimeFormat("es-cl").format(day_fin);
 
