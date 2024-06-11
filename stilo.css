@@ -42,7 +42,7 @@ h1 {
 }
 
 .cuadro {
-  
+  border:0;
 }
 .datos {
   width: auto;
@@ -56,7 +56,7 @@ h1 {
   font-style: italic;
   text-shadow: 3px 3px 6px rgb(0, 89, 255);
 
-  padding-bottom: 800px;
+  padding-bottom: 35px;
 
 }
 p {
