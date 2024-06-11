@@ -29,8 +29,12 @@ let day_fin = new Date();
 
 diff = day_fin - day_ini;
 let a = Math.round(Math.floor(diff / week));
+let people = ct[a-1];
 let individuo = persona[a - 1];
-const usaDateFin = new Intl.DateTimeFormat("es-cl").format(day_fin);
+const usaDateFin = new Intl.DateTimeFormat('es-cl').format(day_fin);
 
-document.getElementById("persona").innerHTML = individuo;
+document.getElementById("persona").innerHTML = people;
+
+/* document.getElementById("persona").innerHTML = individuo;*/
 document.getElementById("fecha").innerHTML = usaDateFin;
+
