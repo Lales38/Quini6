@@ -24,7 +24,7 @@ const minute = second * 60;
 const hour = minute * 60;
 const day = hour * 24;
 const week = day * 7;
-let day_ini = new Date(2024, 3, 19, 8, 0, 0, 0);
+let day_ini = new Date(2024, 3, 26, 8, 0, 0, 0);
 let day_fin = new Date();
 
 diff = day_fin - day_ini;
