@@ -50,14 +50,16 @@ h1 {
 }
 #fecha,
 #persona {
-  font-family: "Permanent Marker", cursive;
-  font-weight: 80px
-  ;
-  font-style: italic;
-  text-shadow: 3px 3px 6px rgb(0, 89, 255);
-
-  padding-top: 35%;
-
+  font-family: "Permanent Marker";
+  font-weight: 100px  ;
+  font-style: normal;
+  text-shadow: 3px 3px 6px rgb(0, 89, 255);  
+}
+#index {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 35px;
+  color: bisque;
+  text-shadow: 4px 4px 7px black;
 }
 p {
   font-family: Verdana, Tahoma, sans-serif;
