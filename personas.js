@@ -25,7 +25,7 @@ let day_fin = new Date();
 diff = day_fin - day_ini;
 let a = Math.round(Math.floor(diff / week));
 
-document.getElementById("index").innerHTML = ct[a+8];
+document.getElementById("index").innerHTML = ct[a+7];
 document.getElementById("persona").innerHTML = ct[a];
 
 function elegir() {
