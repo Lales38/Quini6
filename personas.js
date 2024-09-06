@@ -1,18 +1,18 @@
 const ct = [
-  '<img src="JuanPablo.png" alt="Juan Pablo"></img>',
-  '<img src="Andres.png" alt="Andrés"></img>',
-  '<img src="Ale.png" alt="Ale"></img>',  
+   '<img src="JuanPablo.png" alt="Juan Pablo"></img>',
+  '<img src="Andres.png" alt="Andrés"></img>',  
   '<img src="Edu.png" alt="Eduardo"></img>',
   '<img src="Marcos.png" alt="Marcos"></img>',
+  '<img src="Ale.png" alt="Ale"></img>',
   '<img src="Milton.png" alt="Milton"></img>',
   '<img src="Javier.png" alt="Javier"></img>',
-  '26/07/2024',
-  '02/08/2024',
-  '09/08/2024',
-  '16/08/2024',
-  '23/08/2024',
-  '30/08/2024',
-  '06/09/2024',
+  "13/09/2024",
+  "20/09/2024",
+  "27/09/2024",
+  "04/10/2024",
+  "11/10/2024",
+  "18/10/2024",
+  "25/10/2024",
 ];
 const second = 1000;
 const minute = second * 60;
