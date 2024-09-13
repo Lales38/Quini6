@@ -1,6 +1,6 @@
 const ct = [
-  '<img src="Andres.png" alt="Andrés"></img>',  
   '<img src="JuanPablo.png" alt="Juan Pablo"></img>',
+  '<img src="Andres.png" alt="Andrés"></img>', 
   '<img src="Edu.png" alt="Eduardo"></img>',
   '<img src="Marcos.png" alt="Marcos"></img>',
   '<img src="Ale.png" alt="Ale"></img>',
