@@ -17,7 +17,7 @@ const minute = second * 60;
 const hour = minute * 60;
 const day = hour * 24;
 const week = day * 7;
-let day_ini = new Date(2025, 00,10,8);
+let day_ini = new Date(2025, 00,17,8);
 let day_fin = new Date();
 
 diff = day_fin - day_ini;
