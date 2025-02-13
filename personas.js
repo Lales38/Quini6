@@ -5,13 +5,12 @@ const ct = [
   '<img src="JuanPablo.png" alt="Juan Pablo"></img>', 
   '<img src="Edu.png" alt="Eduardo"></img>',
   '<img src="Ale.png" alt="Ale"></img>',
-  "10/01/2025",
-  "17/01/2025",
-  "24/01/2025",
   "31/01/2025",
   "07/02/2025",
   "14/02/2025",
-  "21/02/2025" 
+  "21/02/2025" ,
+  "28/02/2025",
+  "07/03/2025"
 ];
 const second = 1000;
 const minute = second * 60;
@@ -24,7 +23,7 @@ let day_fin = new Date();
 diff = day_fin - day_ini;
 let a = Math.round(Math.floor(diff / week));
 
-document.getElementById("index").innerHTML = ct[a+7];
+document.getElementById("index").innerHTML = ct[a+6];
 document.getElementById("persona").innerHTML = ct[a];
 
 function elegir() {
