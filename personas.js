@@ -1,16 +1,16 @@
 const ct = [
-  '<img src="Marcos.png" alt="Marcos"></img>', 
-  '<img src="Javier.png" alt="Javier"></img>',
+ 
+  '<img src="Ale.png" alt="Ale"></img>',
+   '<img src="Marcos.png" alt="Marcos"></img>',   
   '<img src="Milton.png" alt="Milton"></img>',
   '<img src="JuanPablo.png" alt="Juan Pablo"></img>', 
-  '<img src="Edu.png" alt="Eduardo"></img>',
-  '<img src="Ale.png" alt="Ale"></img>',
-  "31/01/2025",
-  "07/02/2025",
-  "14/02/2025",
-  "21/02/2025" ,
-  "28/02/2025",
-  "07/03/2025"
+  '<img src="Edu.png" alt="Eduardo"></img>',  
+  "07/03/2025",
+  "14/03/2025",
+  "21/03/2025",
+  "28/03/2025",
+  "05/04/2025" ,
+  "12/04/2025",
 ];
 const second = 1000;
 const minute = second * 60;
