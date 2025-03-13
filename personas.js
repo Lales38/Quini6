@@ -5,7 +5,6 @@ const ct = [
   '<img src="Milton.png" alt="Milton"></img>',
   '<img src="JuanPablo.png" alt="Juan Pablo"></img>', 
   '<img src="Edu.png" alt="Eduardo"></img>',  
-  "07/03/2025",
   "14/03/2025",
   "21/03/2025",
   "28/03/2025",
